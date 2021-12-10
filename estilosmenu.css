@@ -1,0 +1,191 @@
+/*ANTONIO YAMIR LEDESMA BRIONES*/
+
+body {
+  margin: 0px;
+  font-family: "Poppins"
+    padding:0px;
+  background: #ececec;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  display: flex;
+}
+
+a {
+  text-decoration-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.titular {
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+  color: white;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+a {
+  background: #767676;
+  padding: 20px 30px 20px 30px;
+  font-size: 14px
+}
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background: url(cafeteria.jpg);
+  /*Vieport Height* el 100 es el 100% del tamaño de la ventana*/
+  height: 70vh;
+  background-size: cover;
+}
+
+.anuncio {
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+  width: 40%
+}
+
+.promociones-novedades {
+  padding: 40px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hotcakes {
+  background: url(hotcakes.jpg );
+}
+.crepa {
+  background: url(crepa.jpg );
+}
+.pizza {
+  background: url(pizza.jpg );
+  }
+.hamburguesa {
+  background: url(hamburguesa.jpg );
+}
+
+  .malteada {
+    background: url(malteada.jpg );
+  }
+  .cafe {
+    background: url(cafe1.jpg );
+  }
+  .frappe {
+    background: url(frappe1.jpeg );
+    }
+  .capuchino {
+    background: url(capuchino.jpg );
+}
+.roles {
+  background: url(rolescanela.jpg );
+  }
+.pastel {
+  background: url(cake2.jpg );
+}
+
+.anuncio h4 {
+  font-size: 50px;
+  font-style: italic;
+  margin: 0px;
+  align-items: center;
+  color: black;
+  -webkit-text-stroke: .3px white;
+}
+
+.anuncio img {
+  float: right;
+}
+
+.anuncio p {
+  font-size: 26px;
+  height: 150px;
+  font-style: oblique;
+  -webkit-text-stroke: .1px white;
+  color: black;
+}
+
+span {
+  font-size: 80px;
+  color: #2222c3;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#final {
+  background: linear-gradient(rgb(192, 192, 192), rgb(0, 0, 0));
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+#final h3 {
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#final a {
+  padding: 15px 45px 20px 45px;
+  transition: 1s;
+}
+
+#final a:hover {
+  color: black;
+  transition: 1s;
+  transform: rotateY(360deg);
+  display: inline-block;
+
+}
+
+
+#whatsapp a {
+  background: none;
+  position: fixed;
+  top: 85%;
+  right: 1%;
+}
+
+.menu-icon {
+  display: none;
+}

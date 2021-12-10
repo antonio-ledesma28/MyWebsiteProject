@@ -1,0 +1,157 @@
+<!--ANTONIO YAMIR LEDESMA BRIONES -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Coffe Cake - Inicio</title>
+  <!--Referencia tipografía de Google forms -->
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js">
+  </script>
+  <link rel="icon" href="icon.ico">
+</head>
+
+
+<body>
+  <header>
+    <!--Div Contiene Elementos -->
+    <div class="contenedor">
+      <div class="menu">
+        <!--P Párrafo -->
+        <p>COFFE CAKE</p>
+        <!--Nav Menú de navegación -->
+        <nav>
+          <!--ul another list (en vez de 1 se coloca un punto)-->
+          <ul class="lista">
+            <!--li elementos de la lista -->
+            <li>Menú Principal</li>
+            <li>Reserva</li>
+            <li>Sucursales</li>
+            <li>Sobre Nosotros</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="titular">
+        <!--h1 Encabezado -->
+        <h1>TRABAJAMOS CON CARIÑO</h1>
+        <h2>Para que siempre te sientas en casa</h2>
+        <!--Etiqueta para los botones -->
+        <a href="menu.html">VER MENÚ</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="contenedor">
+      <div class="promociones-novedades">
+
+        <div class="anuncio promo">
+          <h4>Promociones</h4>
+          <p>Echa un vistazo a las promociones de este mes. Aprovecha nuestros
+            descuentos en 2x1 en café y hasta el 50% en
+            nuestras bebidas frías</p>
+        </div>
+
+        <div class="anuncio novedades">
+          <h4>Novedades</h4>
+          <p>Tenemos algo nuevo que sabemos que te va a encantar.
+            Descubre todas nuestras novedades; productos, noticias,
+            próximos lanzamiento, entre muchas otras cosas más.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenedor">
+      <h3>Recomendados</h3>
+
+      <!-- Imágenes carrucel -->
+      <div class="owl-carousel">
+        <div> <img src="frappe1.jpeg" title=Frappe> </div>
+        <div> <img src="crepa.jpg" title=Crepa> </div>
+        <div> <img src="capuchino.jpg" title=Capuchino> </div>
+        <div> <img src="rolescanela.jpg" title=Roles_De_Canela> </div>
+        <div> <img src="pan.jpg" title=Pan> </div>
+        <div> <img src="cake.jpg" title=Pastel> </div>
+        <div> <img src="helado.jpg" title=Helado> </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <h3>Lo que nuestros clientes opinan</h3>
+    <div class="contenedor-reseñas">
+
+      <div class="spiderman">
+        <img class="imagen-Tobey" src="Tobey.jpg" alt="Tobey Maguire" title="Tobey Maguire" width="200px" height="200px">
+        <div>
+          <p>Sin duda tienen el mejor café que haya probado.</p>
+          <p>Tobey Maguire (Spider-man).</p>
+        </div>
+      </div>
+
+      <div class="spiderman">
+        <img class="imagen-Andrew" src="Andrew.jpg" alt="Andrew Garfield" title="Andrew Garfield" width="200px" height="200px">
+        <div>
+          <p>Jamás había estado en un restaurante como este. Es sorprendente ;).</p>
+          <p>Andrew Garfield (El otro Spider-man).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="final">
+    <div class="contenedor">
+      <div>
+      <h3>Muchas gracias por ver mi página web. Puedes comunicarte por whatsapp para más información</h3>
+      <a href="index.html">Ir a inicio</a>
+    </div>
+  </section>
+
+
+  <section id="whatsapp">
+    <a href="https://wa.me/525540443310" target="_blank">
+      <img src="whatsapp.png" alt="">
+    </a>
+  </section>
+
+<!-- Código para el carrucel dependiendo el dispositivo al que se acceda-->
+  <script src="owlcarousel/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+
+    $(".menu-icon").click(function() {
+      $("header nav").slideToggle();
+    })
+  </script>
+</body>
+
+</html>

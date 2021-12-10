@@ -1,0 +1,193 @@
+/*ANTONIO YAMIR LEDESMA BRIONES*/
+
+body {
+  margin: 0px;
+  font-family: "Poppins"
+    padding:0px;
+  background: #ececec;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  display: flex;
+}
+
+a {
+  text-decoration-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+  color: white;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+a {
+  background: #767676;
+  padding: 20px 30px 20px 30px;
+  font-size: 14px
+}
+
+header {
+  background: url(cafe.jpg);
+  /*Vieport Height* el 100 es el 100% del tamaño de la ventana*/
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.anuncio {
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 40px;
+  width: 40%
+}
+
+.promociones-novedades {
+  padding: 80px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.promo {
+  background: url(promo1.png );
+}
+
+.novedades {
+  background: url(novedades2.png);
+
+}
+
+.anuncio h4 {
+  font-size: 50px;
+  font-style:italic;
+  margin: 0px;
+  align-items: center;
+  color: black;
+  -webkit-text-stroke: .3px white;
+}
+
+.anuncio img {
+  float: right;
+}
+
+.anuncio p {
+  font-size: 26px;
+  height: 150px;
+  font-style: oblique;
+  -webkit-text-stroke: .1px white;
+  color: black;
+}
+
+.contenedor-reseñas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+  padding: 10px;
+}
+
+.contenedor-reseñas p{
+  color: #fbfbfb;
+  padding:0px 10px 0px 10px;
+}
+
+.spiderman{
+  background: #3c3c3cf5;
+ border-radius: 20px;
+ padding: 0px 0px 0px 0px;
+ width: 45%;
+ display: flex;
+
+}
+.contenedor-reseñas img{
+  width: 100%;
+}
+
+
+span {
+  font-size: 80px;
+  color: #2222c3;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+#final {
+  background: linear-gradient(rgb(192, 192, 192), rgb(0, 0, 0));
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+#final h3 {
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#final a {
+  padding: 15px 45px 20px 45px;
+  transition: 1s;
+}
+
+#final a:hover {
+  color: black;
+  transition: 1s;
+  transform: rotateY(360deg);
+  display: inline-block;
+}
+
+#whatsapp a {
+  background: none;
+  position: fixed;
+  top: 85%;
+  right: 1%;
+}
+
+.menu-icon {
+  display: none;
+}
